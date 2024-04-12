@@ -1,13 +1,18 @@
 body{
     margin: 0;
     font-family: sans-serif;
+}
+.main-container{
     display: flex;
     flex-direction: column;
+    gap: 75px;
+    background-color: #1f2937;
 }
-
+/* header styles */
 header{
     display: flex;
     justify-content: space-around;
+    gap: 450px;
     background-color: #1f2937;
 }
 
@@ -20,7 +25,7 @@ ul{
 a{
     color: #ffffff;
     text-decoration: none;
-    margin: 10px;
+    margin: 20px;
     font-size: 20px;
 }
 
@@ -29,9 +34,56 @@ a{
 }
 
 #header-logo{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin: 0;
     padding: 0;
     line-height: 30px;
+}
+
+/* box-one */
+.box-one{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.text-container{
+    width: 350px;
+}
+
+
+.img-container{
+    background-color: rgb(110, 110, 110);
+    color: #ffffff;
+    text-align: center;
+    height: 225px;
+    width: 600px;
+}
+
+h1{
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    line-height: 175px;
+}
+
+p{
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#button-1{
+    margin-top: 8px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #297bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
 }
