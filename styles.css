@@ -72,7 +72,7 @@ h3{
     line-height: 175px;
 }
 
-p{
+.text-in-text_container{
     margin: 0;
     font-size: 18px;
     color: #e5e7eb;
@@ -87,3 +87,39 @@ p{
     border: none;
     border-radius: 7px;
 }
+
+/* BOX-TWO */
+
+.box-two{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.box-two_title{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box-two_child{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box-two_0-1{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+.mini-box{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #297bff;
+    border-radius: 10px;
+}
+
