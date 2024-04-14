@@ -5,7 +5,6 @@ body{
 .main-container{
     display: flex;
     flex-direction: column;
-    gap: 75px;
     background-color: #1f2937;
 }
 /* header styles */
@@ -46,10 +45,11 @@ a{
     justify-content: space-around;
     background-color: #1f2937;
     color: #ffffff;
+    padding: 70px;
 }
 
 .text-container{
-    width: 350px;
+    width: 370px;
 }
 
 
@@ -57,7 +57,6 @@ a{
     background-color: rgb(110, 110, 110);
     color: #ffffff;
     text-align: center;
-    height: 225px;
     width: 600px;
 }
 
@@ -72,14 +71,15 @@ h1{
 }
 
 .text-in-text_container{
+    width: 450px;
     margin: 0;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 #button-1{
-    margin-top: 8px;
-    font-size: 15px;
+    margin-top: 10px;
+    font-size: 20px;
     padding: 5px 20px;
     background-color: #297bff;
     color: #ffffff;
