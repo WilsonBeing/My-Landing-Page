@@ -67,7 +67,7 @@ h1{
     padding: 0;
 }
 
-h3{
+.h3_in_img{
     line-height: 175px;
 }
 
@@ -154,5 +154,37 @@ h3{
     width: 1070px;
     font-weight: 700;
     font-size: 20px;
+    padding-bottom: 70px;
     text-align: end;
+}
+
+/* box-four */
+
+.box-four{
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-four_child{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border-radius: 10px;
+    padding: 40px 100px 40px 100px;
+    color: #ffffff;
+    background-color: #297bff;
+}
+
+.box-four_title, .information_text{
+    margin: 0;
+}
+
+#sing_up_button{
+    color: #ffffff;
+    background-color: #297bff;
+    border-radius: 10px;
+    border: #ffffff solid 3px;
+    padding: 5px 25px 5px 25px;
+    font-weight: 700;
 }
