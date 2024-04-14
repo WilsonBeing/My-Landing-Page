@@ -12,7 +12,6 @@ body{
 header{
     display: flex;
     justify-content: space-around;
-    gap: 450px;
     background-color: #1f2937;
 }
 
@@ -111,6 +110,7 @@ h3{
 
 .box-two_0-1{
     text-align: center;
+    margin: 50px;
     height: 150px;
     width: 150px;
 }
@@ -123,3 +123,36 @@ h3{
     border-radius: 10px;
 }
 
+
+.text_mini-box{
+    width: 165px;
+}
+
+/* box-tree */
+
+.box-tree{
+    margin-top: 100px;
+    background-color: #e5e7eb;
+
+}
+
+.box-tree-text_container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-tree_text{
+    width: 770px;
+    padding: 70px 70px 0px 70px;
+    margin: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: italic;
+}
+
+#author-text{
+    width: 1070px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: end;
+}
