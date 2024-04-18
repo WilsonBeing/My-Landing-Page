@@ -132,14 +132,12 @@ h1{
 /* box-tree */
 
 .box-tree{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
     background-color: #e5e7eb;
 
-}
-
-.box-tree-text_container{
-    display: flex;
-    justify-content: center;
 }
 
 .box-tree_text{
@@ -151,11 +149,18 @@ h1{
     font-family: italic;
 }
 
+.author-container{
+    display: flex;
+    justify-content: end;
+    width: 500px;
+}
+
 #author-text{
-    width: 1070px;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 20px;
-    padding-bottom: 70px;
+    padding: 0px  0px  70px 100px;
     text-align: end;
 }
 
